@@ -68,27 +68,25 @@ main {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 10%;
   padding: 0.4rem;
   gap: 1rem;
   width: 50%;
 }
-.main #intro span button {
+.main #intro span .btnOne {
   padding: 0.4rem 0.8rem;
   width: 10em;
-  border-radius: 0.6rem;
+  // border-radius: 0.6rem;
   // border: 1px solid #d3d3d396;
 }
 .main #intro span button:hover {
   padding: 0.4rem 0.8rem;
   width: 10em;
   border-radius: 0.6rem;
-  transform: scale(1.02);
-  transition: all 0.3s ease-in-out;
+  // transform: scale(1.02);
+  // transition: all 0.3s ease-in-out;
 }
 .main #skills #skills_list {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   gap: 0.8rem;
   border: 1px solid #d3d3d31f;
@@ -96,25 +94,29 @@ main {
   height: 300px;
   border-radius: 0.4rem;
 }
-// .main #skills_list #list {
-//   min-width: 100px;
-//   height: 100px;
-// }
 .main #works #work_list {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 0.8rem;
-  border: 1px solid #d3d3d31f;
-  border-radius: 0.4rem;
+  // border: 1px solid #d3d3d31f;
+  border-radius: 0.2rem;
 }
 .main #works #work_list .list {
-  max-width: 320px;
+  max-width: 360px;
   height: 250px;
   border: 1px solid #d3d3d30a;
   border-radius: 0.4rem;
+  transition: 0.4s ease-out;
   overflow: hidden;
+}
+.main #works #work_list .list:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+.main #works #work_list .list:hover p {
+  display: none;
 }
 .main .content h2 {
   width: 100%;
@@ -149,8 +151,13 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
   width: 100%;
+  padding: 0.5rem 2rem;
+  border: 1px dotted rgba(17, 24, 39, 0.589);
+  border-radius: 0.4rem;
+}
+#main_nav_container #nav_links li:hover {
+  background: rgba(17, 24, 39, 0.788);
 }
 
 @media (max-width: 1020px) {
@@ -158,9 +165,11 @@ main {
     display: none;
   }
 }
-.main #services #service_list {
-  border: 1px solid #d3d3d31f;
+.main #services #service_list span {
+  background: rgba(17, 24, 39, 0.788);
+  border-radius: 0.5rem;
 }
+
 @media (max-width: 1020px) {
   .main #services #service_list {
     display: flex;
@@ -168,18 +177,9 @@ main {
     gap: 4rem;
   }
 }
-.main #opensource #open_list {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  gap: 4rem;
-  width: 80%;
-  padding: 0.5rem;
-  border: 1px solid #d3d3d31f;
-}
 .main #opensource #open_list li {
   display: flex;
-  width: 40%;
+  width: 45%;
   min-height: 200px;
   border: 1px solid #d3d3d30a;
   border-radius: 0.4rem;
@@ -199,21 +199,8 @@ main {
     border-radius: 0.4rem;
   }
 }
-.main #articles #articles_list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  gap: 4rem;
-  width: 80%;
-  padding: 0.5rem;
-  border: 1px solid #d3d3d31f;
-}
 .main #articles #articles_list li {
-  display: flex;
-  width: 40%;
-  min-height: 200px;
-  border: 1px solid #d3d3d30a;
-  border-radius: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 @media (max-width: 1020px) {
   .main #articles #articles_list {
@@ -231,7 +218,5 @@ main {
   }
 }
 .main #contact {
-  display: flex;
-  min-height: 20rem;
-  margin: auto 0;
+  min-height: 12rem;
 }
