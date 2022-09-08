@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Nunito", sans-serif;
+  /* outline: 1px solid gray !important; */
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.7s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.dockWrapper {
+  @apply absolute w-11/12 overflow-hidden border shadow outline-none md:w-1/2 rounded-xl bottom-3 dark:border-slate-700;
+}
+.downloadBtn {
+  @apply flex flex-row justify-center w-12 gap-3 py-2 overflow-hidden font-medium border rounded-lg md:w-40 dark:border-slate-700 border-slate-200 text-slate-700 dark:text-slate-200 dark:hover:border-slate-600 hover:border-slate-300;
+}
+.tabs {
+  @apply flex items-center px-2 text-indigo-800 duration-200 rounded-lg bg-slate-100 dark:bg-slate-700 hover:bg-indigo-500 hover:text-white hover:scale-110 hover:transition-all;
+}
+.tabs_active {
+  @apply p-2 scale-110 bg-indigo-700 rounded-lg hover:bg-indigo-500 hover:text-slate-100 text-slate-50;
+}
+.tabs_light {
+  @apply p-2 text-yellow-600 transition-all duration-200 rounded-lg bg-slate-100 hover:bg-yellow-500 hover:text-white;
+}
+.tabs_dark {
+  @apply p-2 transition-all duration-200 bg-yellow-900 rounded-lg hover:bg-yellow-600 hover:text-slate-100 text-slate-50;
+}
+.introTabCard {
+  @apply flex flex-col justify-between w-11/12 h-full p-3 border rounded-md shadow-sm bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
+}
+.introTabCardRight {
+  @apply flex flex-col justify-around h-48 gap-2 p-3 border md:w-3/5 border-b-slate-300 dark:border-b-slate-600 border-t-slate-300 dark:border-t-slate-600 border-l-transparent border-r-transparent;
+}
+.worksTabLinks {
+  @apply flex items-center gap-3 px-6 py-2 transition-all duration-200 rounded-md border-slate-300 bg-slate-100 dark:border-2 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 dark:border-slate-700;
+}
+.worksTabParas {
+  @apply text-sm font-semibold text-indigo-600 list-item hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400;
+}
