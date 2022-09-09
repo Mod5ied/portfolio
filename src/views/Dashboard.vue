@@ -1,8 +1,8 @@
 <template>
-    <div class="z-10 flex items-center h-screen overflow-y-scroll bg-slate-100 dark:bg-slate-900">
+    <div class="z-10 flex items-center h-screen bg-slate-100 dark:bg-slate-900">
         <Name />
         <DownloadCv />
-        <main class="absolute flex items-center justify-center w-screen h-1/2">
+        <main class="relative flex items-center justify-center w-screen bottom-10 h-2/3 md:h-1/2">
             <Transition>
                 <IntroTab :useIntro="useIntro" />
             </Transition>

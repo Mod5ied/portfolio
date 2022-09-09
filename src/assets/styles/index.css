@@ -35,7 +35,16 @@
   @apply p-2 transition-all duration-200 bg-yellow-900 rounded-lg hover:bg-yellow-600 hover:text-slate-100 text-slate-50;
 }
 .introTabCard {
-  @apply flex flex-col justify-between w-11/12 h-full p-3 overflow-y-scroll border rounded-md shadow-sm md:overflow-hidden bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
+  @apply relative flex flex-col justify-between w-11/12 h-full p-3 overflow-y-scroll border rounded-md shadow-sm bottom-10 md:bottom-0 md:overflow-hidden bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
+}
+.introTabSkills {
+  @apply relative flex flex-col justify-between w-11/12 p-3 overflow-y-scroll border rounded-md shadow-sm h-3/4 md:h-full bottom-10 md:bottom-0 md:overflow-hidden bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
+}
+.introTabAbout {
+  @apply relative flex flex-col justify-between w-11/12 p-3 overflow-y-scroll border rounded-md shadow-sm bottom-10 md:h-full md:bottom-0 h-3/4 md:overflow-hidden bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
+}
+.introTab {
+  @apply flex flex-col justify-around w-11/12 h-full p-3 overflow-y-scroll border rounded-md shadow-sm md:overflow-hidden bg-slate-50 dark:text-slate-300 dark:bg-slate-800 md:justify-around md:p-4 md:items-center md:w-1/2 border-slate-300 dark:border-slate-700;
 }
 .introTabCardRight {
   @apply flex flex-col justify-around h-48 gap-2 p-3 border md:w-3/5 border-b-slate-300 dark:border-b-slate-600 border-t-slate-300 dark:border-t-slate-600 border-l-transparent border-r-transparent;

@@ -1,7 +1,7 @@
 <template>
-    <div class="introTabCard" v-if="Props.useIntro">
+    <div class="introTab" v-if="Props.useIntro">
         <!-- hovering redirect icon. -->
-        <a href="https://www.github.com/mod5ied/" class="absolute z-20 pr-0 md:pr-5 top-6 right-10 md:right-1/4">
+        <a href="https://www.github.com/mod5ied/" class="absolute z-20 pr-0 md:pr-5 top-12 right-10 md:right-1/4">
             <svg class="w-6 h-6 text-indigo-600 hover:text-indigo-400" fill="none" stroke="currentColor"
                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

@@ -1,12 +1,12 @@
 <template>
-    <div v-if="Props.useGit" class="introTabCard items-center justify-center">
-        <main class="flex flex-col relative top-20 md:top-0 items-center justify-center">
+    <div v-if="Props.useGit" class="items-center justify-center introTabSkills">
+        <main class="relative flex flex-col items-center justify-center top-20 md:top-0">
             <section class="flex flex-col justify-between">
-                <span class="w-52 h-32">
-                    <ion-icon name="logo-github" class="w-52 h-52 opacity-75"></ion-icon>
+                <span class="h-32 w-52">
+                    <ion-icon name="logo-github" class="opacity-75 w-52 h-52"></ion-icon>
                 </span>
                 <a href="https://www.github.com/mod5ied/"
-                    class="hover:scale-x-105 hover:bg-slate-200 transition-all duration-200 z-20 rounded-md border border-slate-200 font-semibold p-2 bg-slate-100 text-indigo-700">Ogwuru
+                    class="z-20 p-2 font-semibold text-indigo-700 transition-all duration-200 border rounded-md hover:scale-x-105 hover:bg-slate-200 border-slate-200 bg-slate-100">Ogwuru
                     Patrick @Github</a>
             </section>
         </main>

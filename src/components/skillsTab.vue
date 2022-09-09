@@ -1,5 +1,5 @@
 <template>
-    <div v-if="Props.useSkills" class="items-center justify-center introTabCard">
+    <div v-if="Props.useSkills" class="items-center justify-center introTabSkills">
         <main class="flex flex-col w-9/12 gap-8">
             <section class="flex flex-col gap-2">
                 <h2 class="text-xl italic font-semibold text-left border border-x-transparent border-t-transparent border-b-indigo-200 md:w-4/6">Development technologies I work with:</h2>

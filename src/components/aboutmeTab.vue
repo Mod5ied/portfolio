@@ -1,5 +1,5 @@
 <template>
-    <div v-if="useAbout" class="justify-around introTabCard">
+    <div v-if="useAbout" class="justify-around introTabAbout">
         <div
             class="flex flex-col justify-start py-2 border md:border-none md:gap-4 border-t-indigo-100 border-b-indigo-100 border-r-transparent border-l-transparent">
             <h1 class="text-2xl font-bold text-left text-indigo-600 md:text-4xl md:text-center">About</h1>
