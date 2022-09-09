@@ -6,7 +6,7 @@
                 <!-- links below. -->
                 <div class="flex flex-col gap-1 md:px-4">
                     <a href="https://github.com/Mod5ied/myigbo" class="worksTabLinks">
-                        <p class="worksTabParas">Igbo-Library & translation Project.</p>
+                        <p class="worksTabParas">Igbo-Library/translation Project.</p>
                         <svg class="w-4 h-4 text-indigo-600 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -45,7 +45,7 @@
                 <!-- links below. -->
                 <div class="flex flex-col gap-1 md:px-4">
                     <a href="https://github.com/Mod5ied/IgboResearch-Public-API" class="worksTabLinks">
-                        <p class="worksTabParas">Igbo-Library API - (OpenSourced)</p>
+                        <p class="worksTabParas">Igbo-Library API - (OSS)</p>
                         <svg class="w-4 h-5 text-indigo-600 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -53,7 +53,7 @@
                         </svg>
                     </a>
                     <a href="https://github.com/Mod5ied/E-Tailors-API" class="worksTabLinks">
-                        <p class="worksTabParas">TypeORM API with PostgreSQL. </p>
+                        <p class="worksTabParas">TypeORM API - (OSS) </p>
                         <svg class="w-6 h-4 text-indigo-600 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -61,7 +61,7 @@
                         </svg>
                     </a>
                     <a href="#" class="worksTabLinks">
-                        <p class="worksTabParas">OpenSourced API with MongoDB and JWT Authentication.</p>
+                        <p class="worksTabParas">Node.js API/JWT Authentication.</p>
                         <svg class="w-6 text-indigo-600 h-7 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
