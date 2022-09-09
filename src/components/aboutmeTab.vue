@@ -5,7 +5,7 @@
             <h1 class="text-2xl font-bold text-left text-indigo-600 md:text-4xl md:text-center">About</h1>
             <p class="text-base font-semibold text-left text-indigo-500">My technical biography</p>
         </div>
-        <main class="relative flex flex-col gap-3 text-sm font-semibold text-left md:w-3/4 bottom-8 sm:bottom-20 md:bottom-5">
+        <main class="relative flex flex-col gap-3 text-sm font-semibold text-left md:w-3/4 md:bottom-5">
             <p>Hello there. My name is Ogwuru Patrick and I'm a frontend engineer based in Nigeria.</p>
             <p>Asides working as a frontend engineer, I'm really proficient working on and building backend systems, and
                 experimenting with database systems.</p>
