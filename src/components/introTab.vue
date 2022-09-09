@@ -9,8 +9,8 @@
             </svg>
         </a>
         <!-- my image. -->
-        <span class="h-64 overflow-hidden rounded-t-lg md:h-40 md:w-40">
-            <img src="../assets/Screenshot_20220311-192805~2.png" class="relative w-full rounded-t-lg h-80 md:h-48 bottom-5 opacity-80"
+        <span class="overflow-hidden rounded-t-lg h-80 md:h-40 md:w-40">
+            <img src="../assets/Screenshot_20220311-192805~2.png" class="relative w-full rounded-t-lg h-96 md:h-48 bottom-14 opacity-80"
                 alt="me-myself" />
         </span>
         <!-- my short bio below. -->

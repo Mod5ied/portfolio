@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center h-screen bg-slate-100 dark:bg-slate-900">
+    <div class="z-10 flex items-center h-screen overflow-y-scroll bg-slate-100 dark:bg-slate-900">
         <Name />
         <DownloadCv />
         <main class="absolute flex items-center justify-center w-screen h-1/2">

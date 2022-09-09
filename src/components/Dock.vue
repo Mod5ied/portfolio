@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-center w-full">
+  <nav class="absolute z-30 flex items-center justify-center w-full bottom-1">
     <div class="dockWrapper">
       <ul class="flex flex-row justify-around w-full px-3 py-2 bg-white dark:bg-slate-800">
         <button @click="dispatchToggle('intro')" title="Home" :class="Props.useIntro ? 'tabs_active' : 'tabs'">
@@ -26,9 +26,9 @@
         <button @click="dispatchToggle('git')" title="Github" :class="Props.useGit ? 'tabs_active' : 'tabs'">
           <ion-icon name="logo-github" class="w-6 h-6 dark:text-slate-100"></ion-icon>
         </button>
-        <button title="Email" :class="Props.isActive ? 'tabs_active' : 'tabs'">
+        <!-- <button title="Email" :class="Props.isActive ? 'tabs_active' : 'tabs'">
           <ion-icon title="Email" name="mail-unread-outline" class="w-6 h-6 dark:text-slate-100"></ion-icon>
-        </button>
+        </button> -->
         <button @click="dispatchToggle('works')" title="Works" :class="Props.useWorks ? 'tabs_active' : 'tabs'">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-6 h-6 dark:text-slate-100">
