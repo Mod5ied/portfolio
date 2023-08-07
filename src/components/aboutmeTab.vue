@@ -2,8 +2,8 @@
     <div v-if="useAbout" class="justify-around introTabAbout">
         <div
             class="flex flex-col justify-start py-2 border md:border-none md:gap-4 border-t-indigo-100 border-b-indigo-100 border-r-transparent border-l-transparent">
-            <h1 class="text-2xl font-bold text-left text-indigo-600 md:text-4xl md:text-center">About</h1>
-            <p class="text-base font-semibold text-left text-indigo-500">My technical biography</p>
+            <h1 class="text-2xl font-bold text-left text-indigo-600 md:text-4xl md:text-center">Biography</h1>
+            <p class="text-base font-semibold text-left text-indigo-500">A technical biography</p>
         </div>
         <main class="relative flex flex-col gap-3 text-sm font-semibold text-left md:w-3/4 md:bottom-5">
             <p>Hello there. My name is Ogwuru Patrick and I'm a frontend engineer based in Nigeria.</p>

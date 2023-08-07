@@ -20,7 +20,7 @@
                 <div class="flex items-center gap-1">
                     <ion-icon name="earth-outline" class="hidden text-blue-500 md:block"></ion-icon>
                     <ion-icon name="location-sharp" class="text-blue-500 md:hidden"></ion-icon>
-                    <p class="text-sm font-semibold">Lagos, Nigeria</p>
+                    <p class="text-sm font-semibold">Enugu, Nigeria</p>
                 </div>
             </div>
             <span class="flex items-center gap-1">
@@ -44,7 +44,7 @@
                             d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
                         </path>
                     </svg>
-                    <p class="text-sm font-semibold">Blockchain & Solidity enthusiast</p>
+                    <p class="text-sm font-semibold">Server-side enthusiast</p>
                 </span>
             </div>
         </div>

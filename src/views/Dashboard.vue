@@ -34,9 +34,9 @@ import Dock from '../components/Dock.vue';
 import Name from '../components/Name.vue';
 import IntroTab from '../components/introTab.vue';
 const HelperTab = defineAsyncComponent(() => import('../components/helperTab.vue'));
-const WorksTab = defineAsyncComponent(() => import('../components/worksTab.vue'))
+const WorksTab = defineAsyncComponent(() => import('../components/works Tab.vue'))
 const SkillsTab = defineAsyncComponent(() => import('../components/skillsTab.vue'));
-const AboutMeTab = defineAsyncComponent(() => import("../components/aboutmeTab.vue"))
+const AboutMeTab = defineAsyncComponent(() => import("../components/aboutmeTab.vue"));
 
 
 const tabStates = reactive({

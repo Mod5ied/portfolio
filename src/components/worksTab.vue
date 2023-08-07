@@ -2,7 +2,7 @@
     <div v-if="Props.useWorks" class="items-center justify-center overflow-y-auto introTabSkills">
         <main class="flex flex-col w-11/12 gap-8 md:w-9/12">
             <section class="flex flex-col gap-1 md:gap-0">
-                <h2 class="italic font-semibold text-left md:text-xl">Frontend UI projects</h2>
+                <h2 class="italic font-semibold text-left md:text-xl">Frontend projects (Github)</h2>
                 <!-- links below. -->
                 <div class="flex flex-col gap-1 md:px-4">
                     <a href="https://github.com/Mod5ied/myigbo" class="worksTabLinks">
@@ -14,7 +14,7 @@
                         </svg>
                     </a>
                     <a href="https://github.com/Mod5ied/E-Tailors" class="worksTabLinks">
-                        <p class="worksTabParas"> E-Tailors eCommerce Project.</p>
+                        <p class="worksTabParas"> Tailors-X eCommerce Project.</p>
                         <svg class="w-4 h-5 text-indigo-600 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -33,7 +33,7 @@
             </section>
             <!-- Second Section Below. -->
             <section class="flex flex-col gap-1 md:gap-0">
-                <h2 class="flex items-center gap-2 italic font-semibold text-left md:text-xl">Backend and APIs development projects
+                <h2 class="flex items-center gap-2 italic font-semibold text-left md:text-xl">Backend and APIs projects
                     <i><svg class="w-4 h-4 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -60,14 +60,14 @@
                                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                         </svg>
                     </a>
-                    <a href="#" class="worksTabLinks">
+                    <!-- <a href="#" class="worksTabLinks">
                         <p class="worksTabParas">Node.js API/JWT Authentication.</p>
                         <svg class="w-6 text-indigo-600 h-7 md:w-5 md:h-5 hover:text-indigo-400 dark:text-slate-300" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
             </section>
         </main>
